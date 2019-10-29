@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="30dp">
+
+    <TextView
+        android:id="@+id/idLegenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Legenda: "/>
+    <TextView
+        android:id="@+id/idDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idLegenda"
+        android:text="Descrição: "/>
+    <TextView
+        android:id="@+id/idDataInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idDescricao"
+        android:text="Data Inicio: "/>
+    <TextView
+        android:id="@+id/idDataFim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idDataInicio"
+        android:text="Data Fim: "/>
+    <TextView
+        android:id="@+id/idCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idDataFim"
+        android:text="Cor: "/>
+    <TextView
+        android:id="@+id/idFeriado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idCor"
+        android:text="Feriado: "/>
+</RelativeLayout>

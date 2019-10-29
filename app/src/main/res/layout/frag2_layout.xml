@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tabelaDados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/legenda"
+            android:layout_width="263dp"
+            android:layout_height="36dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textLegenda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="idLegenda: " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/descricao"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textDescricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descricao: " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/datainicial"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textDataInicial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Inicial: " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/datafinal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textDataFinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Final: " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/cores"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textCor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cor: " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/isferiado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textFeriado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feriado: " />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
